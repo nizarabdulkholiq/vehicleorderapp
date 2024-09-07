@@ -75,4 +75,12 @@ class SubmissionListController extends Controller {
 
         return response()->json(array('success' => true));
     }
+
+    public function export(Request $request)
+    {
+        $from = $request->input('from');
+        $to = $request->input('to');
+
+        return Excel::download(new SubmissionsExport($from, $to), 'submissions.xlsx');
+    }
 }

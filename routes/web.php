@@ -38,6 +38,10 @@ Route::middleware(['auth', 'user-access:admin'])->group(function () {
 });
 
 
+Route::get('/logs', function () {
+    return view('logs');
+});
+
 /*--------------------------------------------------------------------------------------
 All Approval Routes List
 ----------------------------------------------------------------------------------------*/
@@ -46,6 +50,6 @@ Route::middleware(['auth', 'user-access:approval'])->group(function () {
     Route::get('approval/history', [HistoryListController::class, 'index']);
 
     Route::resource('approval/submission-list-approval', SubmissionListController::class);
-});
+}); 
 
  
