@@ -132,4 +132,5 @@ sedangkan approval hanya berfokus pada persetujuan saja
 public\erd\erd.png
 
 # Activity diagram 
-public\diagram\activitydiagram.drawio.png
+public\diagram\activitydiagram.drawio.png 
+p
