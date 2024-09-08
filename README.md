@@ -108,7 +108,7 @@ Jika permintaan disetujui, maka status pemesanan akan berubah menjadi "Disetujui
 Level 2 Persetujuan: Pihak yang menyetujui level 2 melakukan persetujuan terakhir. Jika disetujui, status pemesanan akan berubah menjadi "Disetujui Akhir".
 Jika ada penolakan di salah satu level, status pemesanan akan berubah menjadi "Ditolak", dan user serta admin dapat melihat pengumuman di dashboard applikasi.
 
-- Alur sederhana
+## Alur sederhana
 ## Pengajuan
 pengguna bisa langusng mengajuan di halaman home page  [http://localhost:8000/logs]
 ## Login
